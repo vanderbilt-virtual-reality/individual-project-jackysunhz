@@ -1,4 +1,4 @@
-*** The goal of this project is to create a visually deceptive non-euclidean space inside of unity VR.
+***The goal of this project is to create a visually deceptive non-euclidean space inside of unity VR.
 Interacable functionality in the demo: Initially you would come across a non-euclidean tunnel, and 
 after you get pass, you are able to obtain an object (I labeled as reality stone)which maintains the world 
 euclidean when you hold it.***
