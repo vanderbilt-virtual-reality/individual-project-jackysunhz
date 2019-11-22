@@ -1,15 +1,12 @@
-# The Reality Stone!
-**The goal of this project is to create a visually deceptive non-euclidean space inside of unity VR.
+***The goal of this project is to create a visually deceptive non-euclidean space inside of unity VR.
 Interacable functionality in the demo: Initially you would come across a non-euclidean tunnel, and 
 after you get pass, you are able to obtain an object (I labeled as reality stone)which maintains the world 
-euclidean when you hold it.**
+euclidean when you hold it.***
 
 ###### Things to notice:
 
 * In order to be visually consistent, there are invisible walls in the scene that player can not 
-move pass with the joystick control. Joystick would very likely be the way of moving around, 
-grabbable objects become kind of shaky when grabbed and moving with joystick at the same time, as 
-compared to smooth grabbing when moving with real world movements.
+move pass with the joystick control. 
 * Note that I created the demo inside one of my previous projects, so you would want to just go to 
 the scene "Individual_Project" for the project.
 
@@ -31,8 +28,6 @@ directly with the virtual world instead of a 2d screen, it might actually get ve
 I tried researching online about rendering the space in a non-euclidean way, and it turns out that I would 
 have to change the basic Unity rendering pipeline, which I did not have time and courage to dig into. So I
 just recreated a simple but typical scene totally out of visual deception, and even that caused lots 
-of trouble. Also as I mentioned at the beginning, when you are holding some grabbable in hand and moving
-with joystick simultaneously, the object in hand gets shaky. I am pretty sure that this is one of the unoptimized
-features of the ovr grabber script and has to do with the way the ovr playercontroller carries out position
-movements from joystick. Interpreting joystick movement in form of real world movement should fix the problem.
-I also had to hardcode some of the axis values that are scene specific which is undesired in terms of reproducing.
+of trouble. Due to time limitations, I am not able to create more inetersting scenes such as a slope that goes 
+upwards but appear as if it is downward. I also had to hardcode some of the axis values that are scene specific 
+which is undesired in terms of reproducing.
